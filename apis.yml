@@ -1,7 +1,28 @@
 aid: arcos-labs
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arcos-labs.png
 name: Arcos Labs
-description: Arcos Labs is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arcos Labs is an early-stage, stealth-mode legal technology company focused on
+  "rethinking the practice of law." Backed by 8VC as a portfolio company, the firm
+  is building software aimed at modernizing legal work, and is currently operating
+  in pre-launch / early-access mode with a public waitlist rather than a generally
+  available product. As of this profile there is no public developer platform, API,
+  documentation, or SDK surface — only a marketing site, a careers page, and an
+  early-access intake form. This record was added to the API Evangelist network as
+  a VC-portfolio lead and enriched with the identity details the company publishes
+  today; API artifacts will be captured if and when Arcos Labs ships a developer
+  offering.
 url: https://raw.githubusercontent.com/api-evangelist/arcos-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,19 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-stage: stealth
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Legal
+- Legal Technology
+- Legaltech
+- Artificial Intelligence
+- Stealth
+- Early Access
+- 8VC Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://arcoslabs.com
+  url: https://www.arcoslabs.com/
+- type: PrivacyPolicy
+  url: https://www.arcoslabs.com/web-privacy-policy
+- type: SignUp
+  url: https://www.arcoslabs.com/earlyaccess
+- type: Careers
+  url: https://www.arcoslabs.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
